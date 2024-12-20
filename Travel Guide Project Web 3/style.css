@@ -299,5 +299,38 @@ button.restart-btn:hover {
   background: white;
 }
 
+@media (max-width: 992px) {
+    .navbar-brand,
+    .nav-link {
+      margin-right: 50px;
+    }
 
+
+
+    
+  }
+
+  @media (max-width: 768px) {
+    
+
+    
+
+    .navbar-brand {
+      margin-left: 20px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    
+
+    .nav-link,
+    .navbar-brand {
+      font-size: 14px;
+      margin-right: 10px;
+    }
+
+    
+
+    
+  } 
   
